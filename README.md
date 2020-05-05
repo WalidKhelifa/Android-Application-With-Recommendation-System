@@ -10,7 +10,7 @@
 * Vous trouvez les scripts PHP dans un dossier nomé htdocs
 * Lancer l'application. 
 
-Quelques captures de l'application :
+Quelques captures d'application :
 
 <img width="577" alt="figure11" src="https://user-images.githubusercontent.com/56236244/81026649-b8703a00-8e72-11ea-9a7b-e0ead1bc5c70.png">
 <img width="577" alt="figure66" src="https://user-images.githubusercontent.com/56236244/81026704-e05f9d80-8e72-11ea-988f-4494e9e5447a.png">
