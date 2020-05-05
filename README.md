@@ -1,7 +1,7 @@
-## Android Application with a recommendation system
+# Android Application with a recommendation system
 
 
-# Setup
+## Setup
 
 * Télécharger [Android Studio](https://android-studio.fr.uptodown.com/windows).      
 * Télécharger [Mamp(Mac) ou Wamp(Windows)](https://www.mamp.info/fr/downloads/) pour gèrer la Base de donées.     
