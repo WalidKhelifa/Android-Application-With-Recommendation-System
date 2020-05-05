@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".fragments.HistoriqueFragment">
+
+    <RelativeLayout
+        android:id="@+id/entete"
+        android:layout_width="800dp"
+        android:layout_height="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/rounded_button_black">
+
+
+        <TextView
+            android:id="@+id/commande"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="2dp"
+            android:gravity="center|start"
+            android:text="@string/commande"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/commande"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="394dp"
+            android:layout_marginTop="-35dp"
+            android:gravity="center"
+            android:text="@string/date"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/heure"
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:layout_alignTop="@+id/commande"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="70dp"
+            android:gravity="center"
+            android:text="@string/heure"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_liste_commandes"
+        android:layout_width="750dp"
+        android:layout_height="685dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="138dp"
+        android:layout_marginTop="50dp">
+
+
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/pas_commande"
+        android:layout_width="500dp"
+        android:layout_height="205dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="265dp"
+        android:layout_marginEnd="259dp"
+        android:layout_marginBottom="190dp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:text="@string/no_histo"
+        android:textColor="@color/colorAccent"
+        android:textSize="34sp" />
+</RelativeLayout>

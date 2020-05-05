@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group_menu">
+
+        <item
+            android:id="@+id/goto_historique"
+            android:icon="@drawable/ic_pencil"
+            android:title="@string/historique">
+        </item>
+
+
+        <item
+            
+            android:id="@+id/goto_menu"
+            android:icon="@drawable/ic_clipboard"
+            android:title="@string/menu">
+        </item>
+
+        <item
+            android:id="@+id/goto_commande"
+            android:icon="@drawable/ic_commande"
+            android:title="@string/commander">
+        </item>
+
+
+
+
+
+        <item
+            android:id="@+id/goto_restaurant_infos"
+            android:icon="@drawable/ic_icon"
+            android:title="@string/restaurant">
+        </item>
+
+        <item
+            android:id="@+id/goto_jouer"
+            android:icon="@drawable/ic_jigsaw"
+            android:title="@string/divertissements"></item>
+
+        <item
+            android:id="@+id/goto_quitter"
+            android:title="@string/deconnecter"
+            android:icon="@drawable/ic_off">
+        </item>
+
+
+    </group>
+</menu>

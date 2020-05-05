@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/rose_saumon_flashy">
+    <item>
+
+        <shape android:layout_width="wrap_content" android:shape="rectangle">
+
+            <corners
+
+                android:radius="20dp"/>
+
+            <solid android:color="@color/rose_saumon"/>
+
+        </shape>
+
+    </item>
+
+
+</selector>

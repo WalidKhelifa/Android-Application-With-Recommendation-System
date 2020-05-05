@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">My Resto</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+        <string name="ok">Ok</string>
+       <string name="msg">Message</string>
+
+        <string name="defaut">Aucun(e)</string>
+
+        //LOGIN ACTIVITY
+        <string name="connect_button">Se connecter</string>
+        <string name="user_mail">Nom d\'utilisateur ou email</string>
+        <string name="mdp">Mot de passe</string>
+        <string name="nom_resto">My resto</string>
+
+        //SIGN UP ACTIVITY
+
+
+        <string name="username">Nom d\'utilisateur </string>
+        <string name="mail">Email</string>
+        <string name="loading">Chargement</string>
+
+
+        //MAIN ACTIVITY
+
+        <string name="menu">Menu</string>
+        <string name="commander">Commander</string>
+        <string name="historique">Mes commandes</string>
+        <string name="restaurant">Informations</string>
+        <string name="deconnecter">Se déconnecter</string>
+    <string name="divertissements">Divertissements</string>
+
+
+
+        //STRINGS OF DETAILS MENU
+        <string name="desc">Description:</string>
+        <string name="mode">Mode de cuisson</string>
+        <string name="temps">Temps de cuisson</string>
+        <string name="ing">Ingrédients</string>
+        <string name="allerg">Allergènes</string>
+        <string name="calorie">Calories</string>
+
+
+
+        //COMMANDER ACTIVITY
+
+        <string name="annuler">Annuler</string>
+        <string name="ajouter">Ajouter</string>
+        <string name="quantity">Quantité</string>
+        <string name="portion">Portion</string>
+        <string name="petit">Petit</string>
+        <string name="moyen">Moyen</string>
+        <string name="grand">Grand</string>
+        <string name="valider">Valider</string>
+        <string name="repas">Mon repas</string>
+        <string name="type">Type de commande</string>
+        <string name="nom_plat">Nom du plat</string>
+        <string name="prix_plat">Prix</string>
+        <string name="prix_total">Prix total</string>
+
+
+
+
+        //THIS IS FOR RESTAURANT ACTIVITY
+
+        <string name="horaire">Horaires</string>
+        <string name="num_tel">Numéro de téléphone</string>
+        <string name="adr"> Adresse</string>
+        <string name="comment">Votre commentaire...</string>
+
+        <string-array name="note_resto">
+
+            <item>1 étoile </item>
+            <item>2 étoile </item>
+            <item>3 étoile </item>
+            <item>4 étoile </item>
+            <item>5 étoile </item>
+
+        </string-array>
+
+        <string name="noter">Noter le restaurant</string>
+        <string name="noter_button">Noter</string>
+
+        //HISTORIQUE ACTIVITY
+
+        <string name="commande">Commande</string>
+        <string name="date">Date</string>
+        <string name="heure">Heure</string>
+        <string name="nom_repas">Nom du repas</string>
+        <string name="donnez_nom">Donnez un nom</string>
+        <string name="no_repas">Ajoutez un repas ...</string>
+        <string name="no_histo">Aucune commande existante  ...</string>
+
+
+        //DIVERTISSEMENTS
+
+        <string name="name_game">World Flags</string>
+        <string name="quite">Quitter</string>
+        <string name="play">Jouer</string>
+        <string name="congrats">Félicitations... Vous avez gagné</string>
+        <string name="replay">Rejouer</string>
+
+
+</resources>
